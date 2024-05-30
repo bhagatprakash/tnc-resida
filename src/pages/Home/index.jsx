@@ -13,8 +13,6 @@ function Index() {
       <Card />
       {/* Browse section  */}
       <Browse />
-      {/* TopListing  */}
-      <TopListing />
     </div>
   );
 }
