@@ -66,7 +66,7 @@ function Header() {
 
           <a
             href="#"
-            className="toggle hidden md:flex w-full md:w-auto px-8 py-4 sm:text-center text-center bg-red-700 text-[20px] text-white font-semibold border  items-center justify-center"
+            className="toggle hidden md:flex w-full md:w-auto px-8 py-4 sm:text-center text-center bg-red-700 text-[20px] opacity-70 text-white font-semibold border  items-center justify-center"
           >
             Sign Up
           </a>

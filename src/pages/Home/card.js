@@ -19,7 +19,7 @@ function Card() {
               className="my-6 bg-white rounded-lg shadow-xl border border-transparent dark:border-gray-700 hover:border-gray-500 hover:border-dotted flex flex-col items-center justify-center"
             >
               <div className="h-[225px] mx-auto flex items-center justify-center">
-                <img src={card.image} alt="card" className="" />
+                <img src={card.image} alt="card"  />
               </div>
 
               <a href="#">
