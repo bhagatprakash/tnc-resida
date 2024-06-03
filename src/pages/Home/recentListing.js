@@ -20,7 +20,7 @@ function RecentListing() {
           {RecentData.map((card, index) => (
             <div
               key={index}
-              className="my-6 bg-white border border-gray-700 border-transparent hover:border-gray-500 hover:border-dotted transition-all duration-300"
+              className="my-6 bg-white border border-gray-700  hover:border-gray-500 hover:border-dotted transition-all duration-300"
             >
               <div className="h-[225px] overflow-hidden relative">
                 <img
