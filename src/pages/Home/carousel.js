@@ -33,12 +33,12 @@ const TestimonialCarousel = () => {
     slidesToScroll: 1,
     arrows: true,
     prevArrow: (
-      <button className="slick-prev bg-green-500 text-red-500 p-2 rounded-full shadow-md ">
+      <button className="slick-prev bg-black text-white p-2 rounded-full shadow-md ">
         ←
       </button>
     ),
     nextArrow: (
-      <button className="slick-next bg-red-500 text-green-500 p-2 rounded-full shadow-md">
+      <button className="slick-next bg-black text-white-500 p-2 rounded-full shadow-md">
         →
       </button>
     ),
@@ -69,9 +69,6 @@ const TestimonialCarousel = () => {
           {testimonials.map((testimonial, index) => (
             <div key={index} className="px-2 sm:px-4">
               <div className="p-4 sm:p-6 bg-white border border-gray-500 text-center">
-                <p className="text-base sm:text-lg text-left italic mb-2 sm:mb-4">
-                  "{testimonial.text}"
-                </p>
                 <div className="flex text-left mb-2 sm:mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
                     <svg
@@ -84,6 +81,9 @@ const TestimonialCarousel = () => {
                     </svg>
                   ))}
                 </div>
+                <p className="text-base sm:text-lg text-left italic mb-2 sm:mb-4">
+                  "{testimonial.text}"
+                </p>
                 <h3 className="text-lg sm:text-[15px] text-left font-semibold">
                   {testimonial.author}
                 </h3>

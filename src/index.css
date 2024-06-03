@@ -19,9 +19,7 @@ body {
   box-sizing: border-box;
 }
 
-/* header mediya qurry  */
-/* @media only screen and (max-width: 992px) {
-  .toggle hidden {
-    display: block;
-  }
+/* carosal btn code  */
+/* button.slick-arrow.slick-prev {
+  background: black;
 } */
