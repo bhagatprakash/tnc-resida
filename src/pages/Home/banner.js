@@ -2,12 +2,15 @@ import React from "react";
 
 function Banner() {
   return (
-    <div className="bg-banner h-[800px] bg-cover bg-no-repeat shadow-insetcustom flex items-center justify-center  ">
+    <div
+      className="bg-banner h-[800px] bg-cover bg-no-repeat shadow-insetcustom flex items-center justify-center  "
+      style={{ objectFit: "cover" }}
+    >
       <div className="text-center container mx-auto my-auto ">
-        <h1 className="text-[78px] text-center text-white  font-semibold">
+        <h1 className="lg:text-[78px] text-[44px] text-center text-white  font-semibold">
           Find Your Beachfront Bliss
         </h1>
-        <h1 className="text-[78px] sm:[34px] text-white  text-center font-semibold">
+        <h1 className="lg:text-[78px] text-[44px] text-white  text-center font-semibold">
           with Our Coastal Listings
         </h1>
         <br />

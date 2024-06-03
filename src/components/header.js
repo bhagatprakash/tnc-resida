@@ -21,7 +21,7 @@ function Header() {
               alt="header-image"
             />
           </div>
-          <div className="flex md:hidden">
+          <div className="flex lg:hidden">
             <button id="hamburger">
               <img
                 className="toggle block"
@@ -37,36 +37,35 @@ function Header() {
               />
             </button>
           </div>
-          <div className="toggle hidden w-full md:w-auto md:flex  row-gap-25 text-bold mt-5 md:mt-0  md:border-none">
+          <div className="toggle w-full lg:w-auto lg:flex row-gap-25 text-bold mt-5 md:mt-0 md:border-none hidden">
             <a href="#" className="block   text-[18px]  px-3 py-3  text-center">
               Home<i class="fa-solid fa-angle-down mx-2"></i>
             </a>
-            <a href="#" className="block    text-[18px]  px-3 py-3 text-center">
+            <a href="#" className="block    text-[17px]  px-3 py-3 text-center">
               About Us
             </a>
-            <a href="#" className="block   px-3 py-3 text-[18px]  text-center">
+            <a href="#" className="block   px-3 py-3 text-[17px]  text-center">
               Properties<i class="fa-solid fa-angle-down mx-2"></i>
             </a>
-            <a href="#" className="block  px-3 py-3 text-[18px]   text-center ">
+            <a href="#" className="block  px-3 py-3 text-[17px]   text-center ">
               Agents
             </a>
-            <a href="#" className="block   px-3 py-3 text-[18px]  text-center ">
+            <a href="#" className="block   px-3 py-3 text-[17px]  text-center ">
               pricing
             </a>
-            <a href="#" className="block   px-3 py-3 text-[18px]  text-center ">
+            <a href="#" className="block   px-3 py-3 text-[17px]  text-center ">
               FAQ
             </a>
-            <a href="#" className="block  px-3 py-3 text-[18px]   text-center ">
+            <a href="#" className="block  px-3 py-3 text-[17px]   text-center ">
               Blogs<i class="fa-solid fa-angle-down mx-2"></i>
             </a>
-            <a href="#" className="block  px-2 lg:px-3 py-3 lg:text-[18px]  ">
+            <a href="#" className="block  px-2 lg:px-3 py-3 lg:text-[17px]  ">
               Pages<i class="fa-solid fa-angle-down mx-2"></i>
             </a>
           </div>
-
           <a
             href="#"
-            className="toggle hidden md:flex w-full md:w-auto px-8 py-4 sm:text-center text-center bg-red-700 text-[20px] opacity-70 text-white font-semibold border  items-center justify-center"
+            className="toggle lg:flex w-full lg:w-auto px-8 py-4 sm:text-center text-center bg-red-700 text-[20px] opacity-70 text-white font-semibold border items-center justify-center hidden"
           >
             Sign Up
           </a>

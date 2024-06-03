@@ -8,7 +8,7 @@ function Question() {
         <h1 class="text-2xl my-10 md:text-5xl text-white mx-10 text-center md:text-left">
           Do you have questions?
         </h1>
-        <div class="flex mx-10 flex-col md:flex-row items-center md:items-start">
+        <div class="flex mx-10 flex-col md:flex-row items-center md:items-start justify-between">
           <h1 class="text-lg lg:text-xl text-white mb-4 md:mb-0">
             Call or text today, we are here to help!
           </h1>
@@ -23,7 +23,8 @@ function Question() {
       <img
         src={FullCardImage}
         alt="image"
-        class="w-full md:w-1/2 mt-10 md:mt-0 md:ml-10"
+        className="w-full md:w-1/2 mt-10   "
+        style={{ objectFit: "cover" }}
       />
     </div>
   );

@@ -10,6 +10,7 @@ function Browse() {
             src={BannerImage}
             alt="about image"
             className="w-full h-[100%]"
+            style={{ objectFit: "cover" }}
           />
         </div>
         <div className="basis-full md:basis-1/2 bg-bgColors px-3  ">

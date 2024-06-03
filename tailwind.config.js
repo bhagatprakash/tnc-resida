@@ -8,7 +8,7 @@ module.exports = {
         hight: "h-full",
       },
       boxShadow: {
-        insetcustom: "inset 0 0 0 2000px rgba(0, 0,0, 0.56)",
+        insetcustom: "inset 0 0 0 2000px rgba(18, 72, 107, .9)",
       },
       screens: {
         "1025-1165": { min: "1025px", max: "1165px" },

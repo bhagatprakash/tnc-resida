@@ -18,3 +18,10 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+/* header mediya qurry  */
+/* @media only screen and (max-width: 992px) {
+  .toggle hidden {
+    display: block;
+  }
+} */

@@ -19,7 +19,7 @@ function TopListing() {
           {FetureData.map((card, index) => (
             <div
               key={index}
-              className="my-6 bg-white  border border-gray-600 dark:border-gray-700 border-transparent hover:border-gray-500 hover:border-dotted"
+              className="my-6 bg-white  border border-gray-700 dark:border-gray-700 border-transparent hover:border-gray-500 hover:border-dotted"
             >
               <div className="h-[225px] overflow-hidden relative">
                 <img

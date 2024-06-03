@@ -17,6 +17,7 @@ function ImageSection() {
               src={image3}
               alt="card"
               className="h-[400px] w-full object-cover  hover:scale-125 duration-1000"
+              style={{ objectFit: "cover" }}
             />
             <p className="absolute right-5 bottom-5 text-white bg-opacity-75 p-2">
               Dream Town
@@ -28,6 +29,7 @@ function ImageSection() {
               src={image5}
               alt="card"
               className="h-[400px] w-full object-cover  hover:scale-125 duration-1000"
+              style={{ objectFit: "cover" }}
             />
             <p className="absolute right-5 bottom-5 text-white bg-opacity-75 p-2">
               Riverview Rida
@@ -38,6 +40,7 @@ function ImageSection() {
               src={image4}
               alt="card"
               className="h-[400px] w-full object-cover  hover:scale-125 duration-1000"
+              style={{ objectFit: "cover" }}
             />
             <p className="absolute right-5 bottom-5 text-white bg-opacity-75 p-2">
               Forest fast Carlifo
@@ -48,6 +51,7 @@ function ImageSection() {
               src={image3}
               alt="card"
               className="h-[400px] w-full object-cover  hover:scale-125 duration-1000"
+              style={{ objectFit: "cover" }}
             />
             <p className="absolute right-5 bottom-5 text-white bg-opacity-75 p-2">
               Luxury Realty
@@ -58,6 +62,7 @@ function ImageSection() {
               src={image2}
               alt="card"
               className="h-[400px] w-full object-cover  hover:scale-125 duration-1000"
+              style={{ objectFit: "cover" }}
             />
             <p className="absolute right-5 bottom-5 text-white bg-opacity-75 p-2">
               Forest fast Carlifo
@@ -68,6 +73,7 @@ function ImageSection() {
               src={image6}
               alt="card"
               className="h-[400px] w-full object-cover  hover:scale-125 duration-1000"
+              style={{ objectFit: "cover" }}
             />
             <p className="absolute right-5 bottom-5 text-white bg-opacity-75 p-2">
               Indigo
@@ -78,6 +84,7 @@ function ImageSection() {
               src={image1}
               alt="card"
               className="h-[400px] w-full object-cover  hover:scale-125 duration-1000"
+              style={{ objectFit: "cover" }}
             />
             <p className="absolute right-5 bottom-5 text-white bg-opacity-75 p-2">
               Star Island
@@ -88,6 +95,7 @@ function ImageSection() {
               src={image}
               alt="card"
               className="h-[400px] w-full object-cover  hover:scale-125 duration-1000"
+              style={{ objectFit: "cover" }}
             />
             <p className="absolute right-5 bottom-5  text-white bg-opacity-75 p-2">
               My Seattle

@@ -6,25 +6,28 @@ function RecentListing() {
     <div className="max-w-[1320px] mx-auto relative">
       <div className="my-5">
         <h1 className="text-[20px] text-yellow-400 text-center py-2 font-semibold">
-          TOP LISTING
+          RECENT LISTING
         </h1>
         <h1 className="text-[48px] text-center">
-          Discover Your Perfect Home - TNC
+          Explore Your Ideal Home - Browse
         </h1>
-        <h1 className="text-[48px] text-center">HomeLand Sales and Listings</h1>
+        <h1 className="text-[48px] text-bold text-center">
+          TNC HomeLand's Latest Property
+        </h1>
       </div>
       <div className="bg-accent/20">
         <div className="max-w-[1320px] grid grid-cols-1 gap-6 sm:text-center sm:grid-cols-2 lg:grid-cols-3 px-12">
           {RecentData.map((card, index) => (
             <div
               key={index}
-              className="my-6 bg-white border border-gray-600 border-transparent hover:border-gray-500 hover:border-dotted transition-all duration-300"
+              className="my-6 bg-white border border-gray-700 border-transparent hover:border-gray-500 hover:border-dotted transition-all duration-300"
             >
               <div className="h-[225px] overflow-hidden relative">
                 <img
                   src={card.image}
                   alt="card"
                   className="w-full h-full object-cover hover:scale-125 duration-1000"
+                  style={{ objectFit: "cover" }}
                 />
                 <span className="absolute top-0 left-0 bg-yellow-400 m-2 p-2 text-[15px] font-semibold text-white">
                   Rent
