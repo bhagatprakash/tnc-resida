@@ -12,14 +12,10 @@ function Header() {
   }, []);
   return (
     <>
-      <header>
-        <nav className="flex flex-wrap items-center justify-between my-5 px-5 lg:px-20 ">
+      <heade>
+        <nav className="flex flex-wrap items-center justify-between my-5  lg:px-20 ">
           <div>
-            <img
-              src={HeaderImage}
-              className="h-[40px] my-3"
-              alt="header-image"
-            />
+            <img src={HeaderImage} className="h-[35px]" alt="header-image" />
           </div>
           <div className="flex lg:hidden">
             <button id="hamburger">
@@ -65,12 +61,12 @@ function Header() {
           </div>
           <a
             href="#"
-            className="toggle lg:flex w-full lg:w-auto px-8 py-4 sm:text-center text-center bg-red-700 text-[20px] opacity-70 text-white font-semibold border items-center justify-center hidden"
+            className="toggle lg:flex w-full lg:w-auto px-8 py-2 sm:text-center text-center bg-red-700 text-[18px] opacity-70 text-white font-semibold border items-center justify-center hidden"
           >
             Sign Up
           </a>
         </nav>
-      </header>
+      </heade>
     </>
   );
 }

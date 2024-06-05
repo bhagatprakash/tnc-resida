@@ -7,15 +7,15 @@ function TopListing() {
         <h1 className="text-[20px] text-yellow-400 text-center py-2 font-semibold">
           TOP LISTING
         </h1>
-        <h1 className="text-[48px] text-center ">
+        <h1 className="md:text-[46px] text-[23px] font-bold text-center ">
           Discover Your Perfect Home - TNC
         </h1>
-        <h1 className="text-[48px] text-center ">
+        <h1 className="md:text-[48px] text-[23px] font-bold text-center ">
           HomeLand Sales and Listings
         </h1>
       </div>
       <div className="bg-accent/20">
-        <div className="max-w-[1320px] grid grid-cols-1 gap-6 sm-text-center  sm:grid-cols-2 lg:grid-cols-3 px-12">
+        <div className="max-w-[1320px] grid grid-cols-1 gap-8 sm-text-center  sm:grid-cols-2 lg:grid-cols-3 px-12">
           {FetureData.map((card, index) => (
             <div
               key={index}

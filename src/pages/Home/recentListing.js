@@ -4,14 +4,14 @@ import { RecentData } from "../../assest/data/recentData";
 function RecentListing() {
   return (
     <div className="max-w-[1320px] mx-auto relative">
-      <div className="my-5">
+      <div className="my-10">
         <h1 className="text-[20px] text-yellow-400 text-center py-2 font-semibold">
           RECENT LISTING
         </h1>
-        <h1 className="text-[48px] text-center">
+        <h1 className="md:text-[46px] text-[23px] font-bold text-center">
           Explore Your Ideal Home - Browse
         </h1>
-        <h1 className="text-[48px] text-bold text-center">
+        <h1 className="md:text-[46px] text-[23px] font-bold text-center">
           TNC HomeLand's Latest Property
         </h1>
       </div>

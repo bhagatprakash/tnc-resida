@@ -4,10 +4,10 @@ function Card() {
   return (
     <div className=" my-20 mx-auto ">
       <div className="my-5">
-        <h1 className="text-[48px] text-center  font-semibold ">
+        <h1 className="md:text-[48px] text-[23px] text-center  font-bold ">
           Exclusive Properties and Prestigious
         </h1>
-        <h1 className="text-[48px] text-center  font-semibold">
+        <h1 className="md:text-[48px] text-[23px] font-bold text-center  ">
           Estates Await
         </h1>
       </div>
@@ -16,9 +16,9 @@ function Card() {
           {FetureData.map((card, index) => (
             <div
               key={index}
-              className="my-6 bg-white rounded-lg shadow-xl border border-transparent dark:border-gray-700 hover:border-gray-500 hover:border-dotted flex flex-col items-center justify-center"
+              className="my-6 bg-white rounded-lg shadow border border-transparent dark:border-gray-700 hover:border-gray-500 hover:border-dotted flex flex-col items-center justify-center"
             >
-              <div className="h-[225px] mx-auto flex items-center justify-center">
+              <div className="lg:h-[225px]  h-[180px] mx-auto flex items-center justify-center">
                 <img
                   src={card.image}
                   alt="card"

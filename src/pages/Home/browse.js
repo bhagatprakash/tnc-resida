@@ -15,16 +15,16 @@ function Browse() {
         </div>
         <div className="basis-full md:basis-1/2 bg-bgColors px-3  ">
           <div
-            className="flex flex-col  min-h-[50px] mt-[120px] md:text-left"
+            className="flex flex-col  min-h-[50px] lg:mt-[120px] mt-[70px] md:text-left"
             data-aos="fade-right"
           >
-            <h1 className="text-[48px] text-white mx-10  font-semibold text-left">
+            <h1 className="lg:text-[48px]   text-[33px] text-white mx-10  font-semibold text-left">
               Browse our Wide Selection
             </h1>
-            <h1 className="text-[48px] mx-10  text-white font-semibold text-left">
+            <h1 className="lg:text-[48px]  text-[33px] mx-10  text-white font-semibold text-left">
               of Luxury Properties
             </h1>
-            <p className="mx-10  text-white text-[20px] py-2 text-left">
+            <p className="mx-10  text-gray-400 text-[20px] py-2 text-left">
               Discover Your Dream Home with TNC Real Estate. Our deep market
               insights and commitment to excellence ensure a seamless and
               enjoyable real estate journey.

@@ -55,8 +55,8 @@ const TestimonialCarousel = () => {
   return (
     <div className="my-20">
       <div className="bg-accent/20 grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1">
-        <div className="p-10">
-          <h2 className="text-4xl  text-left font-bold mb-6 sm:mb-8">
+        <div className="lg:p-10 p-5">
+          <h2 className="md:text-4xl text-[28px]   text-left font-bold mb-6 sm:mb-8">
             What Our Client Says
           </h2>
           <p className="text-[18px] text-gray-500 text-left">

@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         banner: "url('./assest/images/banner.webp')",
+        newBanner: "url('./assest/images/fullcard image.webp')",
         hight: "h-full",
       },
       boxShadow: {
