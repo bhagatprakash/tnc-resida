@@ -29,23 +29,24 @@ function RecentListing() {
                   className="w-full h-full object-cover hover:scale-125 duration-1000"
                   style={{ objectFit: "cover" }}
                 />
-                <span className="absolute top-0 left-0 bg-yellow-400 m-2 p-2 text-[15px] font-semibold text-white">
+                <span className="absolute top-0 left-0 bg-yellow-400  mt-3 w-[55px] p-2 text-[15px] font-semibold text-white">
                   Rent
                 </span>
               </div>
               <div className="pt-4 pb-2 border-gray-300">
                 <div className="flex">
-                  <span className="inline-block py-1 text-[12px] font-semibold p-5 text-gray-500 mb-2 text-left">
+                  <span className="inline-block py-1  opacity-80  text-[15px]  p-5 text-gray-500 mb-2 text-left">
                     <i className="fa-solid fa-ruler-combined mx-2 text-red-500"></i>
-                    {card.squre}
+
+                    <spn className="opacity-80">{card.squre}</spn>
                   </span>
-                  <span className="inline-block py-1 text-[12px] font-semibold p-5 text-gray-500 mb-2 text-left">
+                  <span className="inline-block py-1  opacity-80  text-[15px]  p-5 text-gray-500 mb-2 text-left">
                     <i className="fa-solid fa-bed mx-2 text-red-500"></i>
-                    {card.bedrooms}
+                    <spn className="opacity-80">{card.bedrooms}</spn>
                   </span>
-                  <span className="inline-block py-1 text-[12px] font-semibold p-5 text-gray-500 mb-2 text-left">
+                  <span className="inline-block py-1  opacity-80  text-[15px] p-5 text-gray-500 mb-2 text-left">
                     <i className="fa-solid fa-bath mx-2 text-red-500"></i>
-                    {card.bathrooms}
+                    <spn className="opacity-80"> {card.bathrooms}</spn>
                   </span>
                 </div>
               </div>
@@ -56,10 +57,13 @@ function RecentListing() {
                 </h5>
               </a>
 
-              <p className="mb-3 text-[18px] mx-4 text-gray-500 dark:text-gray-400 text-left">
+              <p className="mb-3 text-[15px] mx-4 text-gray-500 dark:text-gray-400 text-left">
                 {card.location}
               </p>
               <p className="my-5 mx-4 text-[20px] text-red-500 font-semibold dark:text-gray-400 text-left">
+                <span className="line-through text-gray-400">
+                  {card.oldprise}
+                </span>
                 {card.price}
                 <span className="text-[14px] text-gray-400"> / Month</span>
               </p>

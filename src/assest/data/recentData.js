@@ -37,6 +37,7 @@ export const RecentData = [
     image: card4,
     type: "Luxury Realty",
     price: "$700",
+    oldprise: "$12000.00 |",
     location:
       "Trendy loft-style studio in an artsy district, near cultural hubs.",
     bedrooms: " 5 Beds",

@@ -8,6 +8,7 @@ export const FetureData = [
     image: card1,
     type: "Riverview Rida",
     price: " $15000.00",
+    oldprise: "$17000.00 | ",
     location:
       "Stylish urban loft with open-plan layout and proximity to downtown attractions.",
     bedrooms: " 5 Beds",
@@ -36,7 +37,8 @@ export const FetureData = [
   {
     image: card4,
     type: "Star Island",
-    price: "$650 / Month",
+    price: "$650 ",
+    month: "/ Month",
     location:
       "Expansive country estate with a private pool and acres of scenic beauty.",
     bedrooms: " 5 Beds",
