@@ -15,7 +15,7 @@ function TopListing() {
         </h1>
       </div>
       <div className="bg-accent/20">
-        <div className="max-w-[1320px] grid grid-cols-1 gap-[50px] sm:text-center sm:grid-cols-2 lg:grid-cols-3 px-4 sm:px-12 justify-items-center">
+        <div className="max-w-[1320px] grid grid-cols-1 gap-[50px] content-center sm:text-center sm:grid-cols-2 lg:grid-cols-3 px-4 sm:px-12">
           {FetureData.map((card, index) => (
             <div
               key={index}

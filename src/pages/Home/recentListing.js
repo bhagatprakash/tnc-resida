@@ -16,7 +16,7 @@ function RecentListing() {
         </h1>
       </div>
       <div className="bg-accent/20">
-        <div className="max-w-[1320px] grid grid-cols-1 gap-6 sm:text-center sm:grid-cols-2 lg:grid-cols-3 px-12">
+        <div className="max-w-[1320px] grid grid-cols-1 gap-[50px] sm:text-center sm:grid-cols-2 lg:grid-cols-3 sm:px-12 ">
           {RecentData.map((card, index) => (
             <div
               key={index}
@@ -35,16 +35,16 @@ function RecentListing() {
               </div>
               <div className="pt-4 pb-2 border-gray-300">
                 <div className="flex">
-                  <span className="inline-block py-1  opacity-80  text-[15px]  p-5 text-gray-500 mb-2 text-left">
+                  <span className="inline-block py-1  opacity-80  text-[14px]  p-5 text-gray-500 mb-2 text-left">
                     <i className="fa-solid fa-ruler-combined mx-2 text-red-500"></i>
 
                     <spn className="opacity-80">{card.squre}</spn>
                   </span>
-                  <span className="inline-block py-1  opacity-80  text-[15px]  p-5 text-gray-500 mb-2 text-left">
+                  <span className="inline-block py-1  opacity-80  text-[14px]  p-5 text-gray-500 mb-2 text-left">
                     <i className="fa-solid fa-bed mx-2 text-red-500"></i>
                     <spn className="opacity-80">{card.bedrooms}</spn>
                   </span>
-                  <span className="inline-block py-1  opacity-80  text-[15px] p-5 text-gray-500 mb-2 text-left">
+                  <span className="inline-block py-1  opacity-80  text-[14px] p-5 text-gray-500 mb-2 text-left">
                     <i className="fa-solid fa-bath mx-2 text-red-500"></i>
                     <spn className="opacity-80"> {card.bathrooms}</spn>
                   </span>
