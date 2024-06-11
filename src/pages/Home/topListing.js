@@ -1,5 +1,6 @@
 import React from "react";
 import { FetureData } from "../../assest/data/fetureData";
+import { Link } from "react-router-dom";
 function TopListing() {
   return (
     <div className="max-w-[1320px] mx-auto relative">
@@ -22,11 +23,13 @@ function TopListing() {
               className="my-6 bg-white border border-gray-700 dark:border-gray-700 hover:border-gray-500 hover:border-dotted w-full sm:w-auto"
             >
               <div className="h-[225px] overflow-hidden relative">
-                <img
-                  src={card.image}
-                  alt="card"
-                  className="w-full h-full object-cover object-center hover:scale-125 duration-1000"
-                />
+                <Link to={"/proptype_sectoin"}>
+                  <img
+                    src={card.image}
+                    alt="card"
+                    className="w-full h-full object-cover object-center hover:scale-125 duration-1000"
+                  />
+                </Link>
                 <span className="absolute top-0 left-0 bg-red-500 mt-3 w-[55px] p-2 text-[15px] font-semibold text-white">
                   Sale
                 </span>

@@ -7,6 +7,7 @@ import RecentListing from "./recentListing";
 import Question from "./question";
 import ImageSection from "./image";
 import TestimonialCarousel from "./carousel";
+import ProptyPage from "./proptyPage";
 
 function Index() {
   return (
@@ -27,6 +28,8 @@ function Index() {
       <ImageSection />
       {/* Carousel */}
       <TestimonialCarousel />
+
+      {/* <ProptyPage /> */}
     </div>
   );
 }
