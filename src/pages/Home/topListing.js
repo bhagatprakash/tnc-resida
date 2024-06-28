@@ -8,10 +8,10 @@ function TopListing() {
         <h1 className="text-[20px] text-yellow-400 text-center py-2 font-semibold">
           TOP LISTING
         </h1>
-        <h1 className="md:text-[46px] text-[23px] font-bold text-center">
+        <h1 className="md:text-[46px] text-[23px] font-bold text-center dark:text-white">
           Discover Your Perfect Home - TNC
         </h1>
-        <h1 className="md:text-[48px] text-[23px] font-bold text-center">
+        <h1 className="md:text-[48px] text-[23px] font-bold text-center dark:text-white">
           HomeLand Sales and Listings
         </h1>
       </div>
@@ -20,7 +20,7 @@ function TopListing() {
           {FetureData.map((card, index) => (
             <div
               key={index}
-              className="my-6 bg-white border border-gray-700 dark:border-gray-700 hover:border-gray-500 hover:border-dotted w-full sm:w-auto"
+              className="my-6 bg-white border border-gray-700 dark:border-gray-700 hover:border-gray-500 hover:border-dotted w-full sm:w-auto dark:bg-gulf-blue"
             >
               <div className="h-[225px] overflow-hidden relative">
                 <Link to={"/proptype_sectoin"}>
@@ -39,15 +39,22 @@ function TopListing() {
                 <div className="flex justify-center ">
                   <span className="inline-block py-1 text-[14px] p-5 text-gray-500 mb-2 text-left">
                     <i className="fa-solid fa-ruler-combined mx-2 opacity-80 text-red-500"></i>
-                    <spn className="opacity-80">{card.squre}</spn>
+                    <spn className="opacity-80 dark:text-white">
+                      {card.squre}
+                    </spn>
                   </span>
                   <span className="inline-block opacity-80 py-1 text-[14px] p-5 text-gray-500 mb-2 text-left">
                     <i className="fa-solid fa-bed mx-2 text-red-500"></i>
-                    <spn className="opacity-80">{card.bedrooms}</spn>
+                    <spn className="opacity-80 dark:text-white">
+                      {card.bedrooms}
+                    </spn>
                   </span>
                   <span className="inline-block py-1 opacity-80 text-[14px] p-5 text-gray-500 mb-2 text-left">
                     <i className="fa-solid fa-bath mx-2 text-red-500"></i>
-                    <spn className="opacity-80"> {card.bathrooms}</spn>
+                    <spn className="opacity-80 dark:text-white">
+                      {" "}
+                      {card.bathrooms}
+                    </spn>
                   </span>
                 </div>
               </div>

@@ -13,7 +13,7 @@ function Browse() {
             style={{ objectFit: "cover" }}
           />
         </div>
-        <div className="basis-full md:basis-1/2 bg-bgColors px-3  ">
+        <div className=" dark:border basis-full md:basis-1/2 bg-bgColors dark:bg-gulf-blue px-3  ">
           <div
             className="flex flex-col  min-h-[50px] lg:mt-[120px] mt-[70px] md:text-left"
             data-aos="fade-right"

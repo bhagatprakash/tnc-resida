@@ -4,7 +4,7 @@ import headerImage from "../assest/images/header.webp";
 function Footer() {
   return (
     <>
-      <div className="bg-bgColors">
+      <div className="bg-bgColors dark:bg-gulf-blue">
         <div className="flex flex-col mx-auto sm:flex-row">
           <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 text-center md:text-left my-10 px-5 gap-6">
             <div className="cursor-pointer text-white">

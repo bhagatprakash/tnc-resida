@@ -56,10 +56,10 @@ const TestimonialCarousel = () => {
     <div className="my-20">
       <div className="bg-accent/20 grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1">
         <div className="lg:p-10 p-5">
-          <h2 className="md:text-4xl text-[28px]   text-left font-bold mb-6 sm:mb-8">
+          <h2 className="md:text-4xl text-[28px]   text-left font-bold mb-6 sm:mb-8 dark:text-white">
             What Our Client Says
           </h2>
-          <p className="text-[18px] text-gray-500 text-left">
+          <p className="text-[18px] text-gray-500 text-left dark:text-gray-300">
             TNC Resida has made my home search a breeze. Their platform is
             user-friendly, and I found the perfect place with ease.
           </p>
@@ -68,7 +68,7 @@ const TestimonialCarousel = () => {
         <Slider {...settings}>
           {testimonials.map((testimonial, index) => (
             <div key={index} className="px-2 sm:px-4">
-              <div className="p-4 sm:p-6 bg-white border border-gray-500 text-center">
+              <div className="p-4 sm:p-6 bg-white dark:bg-gulf-blue border border-gray-500 text-center">
                 <div className="flex text-left mb-2 sm:mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
                     <svg
@@ -81,13 +81,13 @@ const TestimonialCarousel = () => {
                     </svg>
                   ))}
                 </div>
-                <p className="text-base sm:text-lg text-left italic mb-2 sm:mb-4">
+                <p className="text-base sm:text-lg text-left italic mb-2 sm:mb-4 dark:text-white">
                   "{testimonial.text}"
                 </p>
-                <h3 className="text-lg sm:text-[15px] text-left font-semibold">
+                <h3 className="text-lg sm:text-[15px] text-left font-semibold dark:text-white">
                   {testimonial.author}
                 </h3>
-                <p className="text-gray-600 [13px] text-left">
+                <p className="text-gray-600 [13px] text-left dark:text-gray-300">
                   {testimonial.position}
                 </p>
               </div>

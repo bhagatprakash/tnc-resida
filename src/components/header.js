@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import HeaderImage from "../assest/images/header.webp";
+import ToggleButton from "./toggleButton";
 
 function Header() {
   useEffect(() => {
@@ -10,12 +11,29 @@ function Header() {
       }
     };
   }, []);
+
+  const toggleDarkMode = () => {
+    let htmlClasses = document.querySelector("html").classList;
+
+    if (localStorage.theme === "dark") {
+      htmlClasses.remove("dark");
+      localStorage.removeItem("theme");
+    } else {
+      htmlClasses.add("dark");
+      localStorage.setItem("theme", "dark");
+    }
+  };
+
   return (
     <>
       <heade>
-        <nav className="flex flex-wrap items-center justify-between my-5  lg:px-20 ">
+        <nav className="flex flex-wrap items-center justify-between p-4  lg:px-20 ">
           <div>
-            <img src={HeaderImage} className="h-[35px]" alt="header-image" />
+            <img
+              src={HeaderImage}
+              className="h-[35px] dark:bg-white"
+              alt="header-image"
+            />
           </div>
           <div className="flex lg:hidden">
             <button id="hamburger">
@@ -34,34 +52,59 @@ function Header() {
             </button>
           </div>
           <div className="toggle w-full lg:w-auto lg:flex row-gap-25 text-bold mt-5 md:mt-0 md:border-none hidden">
-            <a href="#" className="block   text-[18px]  px-3 py-3  text-center">
+            <ToggleButton onClick={toggleDarkMode} />
+            <a
+              href="#"
+              className="block   text-[18px]  px-3 py-3  text-center dark:text-white"
+            >
               Home<i class="fa-solid fa-angle-down mx-2"></i>
             </a>
-            <a href="#" className="block    text-[17px]  px-3 py-3 text-center">
+            <a
+              href="#"
+              className="block    text-[17px]  px-3 py-3 text-center dark:text-white"
+            >
               About Us
             </a>
-            <a href="#" className="block   px-3 py-3 text-[17px]  text-center">
+            <a
+              href="#"
+              className="block   px-3 py-3 text-[17px]  text-center dark:text-white"
+            >
               Properties<i class="fa-solid fa-angle-down mx-2"></i>
             </a>
-            <a href="#" className="block  px-3 py-3 text-[17px]   text-center ">
+            <a
+              href="#"
+              className="block  px-3 py-3 text-[17px]   text-center  dark:text-white"
+            >
               Agents
             </a>
-            <a href="#" className="block   px-3 py-3 text-[17px]  text-center ">
+            <a
+              href="#"
+              className="block   px-3 py-3 text-[17px]  text-center dark:text-white "
+            >
               pricing
             </a>
-            <a href="#" className="block   px-3 py-3 text-[17px]  text-center ">
+            <a
+              href="#"
+              className="block   px-3 py-3 text-[17px]  text-center dark:text-white "
+            >
               FAQ
             </a>
-            <a href="#" className="block  px-3 py-3 text-[17px]   text-center ">
+            <a
+              href="#"
+              className="block  px-3 py-3 text-[17px]   text-center dark:text-white "
+            >
               Blogs<i class="fa-solid fa-angle-down mx-2"></i>
             </a>
-            <a href="#" className="block  px-2 lg:px-3 py-3 lg:text-[17px]  ">
+            <a
+              href="#"
+              className="block  px-2 lg:px-3 py-3 lg:text-[17px]  dark:text-white "
+            >
               Pages<i class="fa-solid fa-angle-down mx-2"></i>
             </a>
           </div>
           <a
             href="#"
-            className="toggle lg:flex w-full lg:w-auto px-8 py-2 sm:text-center text-center bg-red-700 text-[18px] opacity-70 text-white font-semibold border items-center justify-center hidden"
+            className="toggle lg:flex w-full lg:w-auto px-8 py-2 sm:text-center text-center bg-red-700 dark:bg-red-500 text-[18px] opacity-70  dark:opacity-90 text-white font-semibold border items-center justify-center hidden"
           >
             Sign Up
           </a>

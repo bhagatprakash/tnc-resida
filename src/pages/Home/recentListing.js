@@ -8,10 +8,10 @@ function RecentListing() {
         <h1 className="text-[20px] text-yellow-400 text-center py-2 font-semibold">
           RECENT LISTING
         </h1>
-        <h1 className="md:text-[46px] text-[23px] font-bold text-center">
+        <h1 className="md:text-[46px] text-[23px] font-bold text-center dark:text-white">
           Explore Your Ideal Home - Browse
         </h1>
-        <h1 className="md:text-[46px] text-[23px] font-bold text-center">
+        <h1 className="md:text-[46px] text-[23px] font-bold text-center dark:text-white">
           TNC HomeLand's Latest Property
         </h1>
       </div>
@@ -20,7 +20,7 @@ function RecentListing() {
           {RecentData.map((card, index) => (
             <div
               key={index}
-              className="my-6 bg-white border border-gray-700  hover:border-gray-500 hover:border-dotted transition-all duration-300"
+              className="my-6 bg-white border border-gray-700  hover:border-gray-500 hover:border-dotted transition-all duration-300 dark:bg-gulf-blue"
             >
               <div className="h-[225px] overflow-hidden relative">
                 <img
@@ -38,15 +38,22 @@ function RecentListing() {
                   <span className="inline-block py-1  opacity-80  text-[14px]  p-5 text-gray-500 mb-2 text-left">
                     <i className="fa-solid fa-ruler-combined mx-2 text-red-500"></i>
 
-                    <spn className="opacity-80">{card.squre}</spn>
+                    <spn className="opacity-80 dark:text-white">
+                      {card.squre}
+                    </spn>
                   </span>
                   <span className="inline-block py-1  opacity-80  text-[14px]  p-5 text-gray-500 mb-2 text-left">
                     <i className="fa-solid fa-bed mx-2 text-red-500"></i>
-                    <spn className="opacity-80">{card.bedrooms}</spn>
+                    <spn className="opacity-80 dark:text-white">
+                      {card.bedrooms}
+                    </spn>
                   </span>
                   <span className="inline-block py-1  opacity-80  text-[14px] p-5 text-gray-500 mb-2 text-left">
                     <i className="fa-solid fa-bath mx-2 text-red-500"></i>
-                    <spn className="opacity-80"> {card.bathrooms}</spn>
+                    <spn className="opacity-80 dark:text-white">
+                      {" "}
+                      {card.bathrooms}
+                    </spn>
                   </span>
                 </div>
               </div>

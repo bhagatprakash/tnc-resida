@@ -2,7 +2,7 @@ import React from "react";
 
 function Question() {
   return (
-    <div class=" flex flex-col md:flex-row bg-blue-500  md:bg-newBanner bg-no-repeat relative  bg-right-bottom bg-none bg-contain">
+    <div class="dark:border dark:shadow-lg flex flex-col md:flex-row bg-blue-500 dark:bg-gulf-blue  md:bg-newBanner bg-no-repeat relative  bg-right-bottom bg-none bg-contain">
       <div class="p-5 px-10 ">
         <h1 class="text-[50px] my-10 font-semibold md:text-5xl text-white mx-10 text-center md:text-left">
           Do you have questions?

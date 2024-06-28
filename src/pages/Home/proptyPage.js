@@ -50,10 +50,12 @@ function ProptyPage() {
       {/* // card */}
       <div className="max-w-[1320px] mx-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 py-5 px-5 sm:px-12 gap-5">
         <div>
-          <h1 className="font-bold text-3xl text-yellow-500 text-left my-5">
+          <h1 className="font-bold text-3xl text-yellow-500 text-left my-5 ">
             $12000.00
           </h1>
-          <h2 className="font-bold text-4xl text-left my-5 ">Dream Town</h2>
+          <h2 className="font-bold text-4xl text-left my-5 dark:text-white">
+            Dream Town
+          </h2>
           <div className="pt-4 pb-2 border-gray-300 ">
             {/* icon  */}
             <div className="flex flex-cols ">
@@ -106,7 +108,7 @@ function ProptyPage() {
           <div className="max-w-[1320px] grid grid-cols-1 md:grid-cols-1 md:text-right md:justify-items-right  lg:grid-cols-3 py-5 px-5 sm:px-12 gap-5">
             <div className="md:col-span-2 text-left flex flex-col overflow-auto  ">
               <div className="my-10">
-                <h1 className="text-[18px] font-semibold text-left sm:text-center lg:text-left opacity-85">
+                <h1 className="text-[18px] font-semibold text-left sm:text-center lg:text-left opacity-85 dark:text-white">
                   Property Description
                 </h1>
 
@@ -125,10 +127,12 @@ function ProptyPage() {
               </div>
 
               <div>
-                <h1 className="text-2xl font-semibold">ADDITIONAL DETAILS</h1>
+                <h1 className="text-2xl font-semibold dark:text-white">
+                  ADDITIONAL DETAILS
+                </h1>
                 <hr className="my-5" />
 
-                <div className="grid lg:grid-cols-2 grid-cols-1 justify-between">
+                <div className="grid lg:grid-cols-2 grid-cols-1 justify-between dark:text-white">
                   <div className="grid grid-cols-2 justify-between">
                     <span className="font-semibold">Building Age</span>
                     <span>2 Years</span>
@@ -141,7 +145,7 @@ function ProptyPage() {
                   </div>
                 </div>
 
-                <div className="grid lg:grid-cols-2 grid-cols-1 justify-between">
+                <div className="grid lg:grid-cols-2 grid-cols-1 justify-between dark:text-white">
                   <div className="grid grid-cols-2 justify-between">
                     <span className="font-semibold">Property Type</span>
                     <span>2 Years</span>
@@ -154,7 +158,7 @@ function ProptyPage() {
                   </div>
                 </div>
 
-                <div className="grid lg:grid-cols-2 grid-cols-1 justify-between">
+                <div className="grid lg:grid-cols-2 grid-cols-1 justify-between dark:text-white">
                   <div className="grid grid-cols-2 justify-between">
                     <span className="font-semibold">Property Status</span>
                     <span>2 Years</span>
@@ -167,7 +171,7 @@ function ProptyPage() {
                   </div>
                 </div>
 
-                <div className="grid lg:grid-cols-2 grid-cols-1 justify-between">
+                <div className="grid lg:grid-cols-2 grid-cols-1 justify-between dark:text-white">
                   <div className="grid grid-cols-2 justify-between">
                     <span className="font-semibold">Gas</span>
                     <span>2 Years</span>
@@ -179,7 +183,7 @@ function ProptyPage() {
                     <hr className="w-[300px] my-5" />
                   </div>
                 </div>
-                <div className="grid lg:grid-cols-2 grid-cols-1 justify-between">
+                <div className="grid lg:grid-cols-2 grid-cols-1 justify-between dark:text-white">
                   <div className="grid grid-cols-2 justify-between">
                     <span className="font-semibold">Heating</span>
                     <span>2 Years</span>
@@ -192,7 +196,7 @@ function ProptyPage() {
                   </div>
                 </div>
 
-                <div className="grid lg:grid-cols-2 grid-cols-1 justify-between">
+                <div className="grid lg:grid-cols-2 grid-cols-1 justify-between dark:text-white">
                   <div className="grid grid-cols-2 justify-between">
                     <span className="font-semibold">Storage</span>
                     <span>2 Years</span>
@@ -207,77 +211,79 @@ function ProptyPage() {
               </div>
 
               <div>
-                <h1 className="text-xl font-semibold">Amenities</h1>
+                <h1 className="text-xl font-semibold dark:text-white">
+                  Amenities
+                </h1>
                 <hr className="h-[1px] bg-green-500 border-0 w-[80px] my-4" />
 
                 <div className="grid lg:grid-cols-3  md:grid-cols-2 grid-cols-1">
                   <div>
-                    <h2 className="my-3">
-                      <i className="fa-regular fa-circle-check text-orange-600 mx-3"></i>
+                    <h2 className="my-3 dark:text-white">
+                      <i className="fa-regular fa-circle-check text-orange-600 mx-3 dark:text-white"></i>
                       Air Conditioning
                     </h2>
-                    <h2 className="my-3">
-                      <i className="fa-regular fa-circle-check text-orange-600 mx-3"></i>
+                    <h2 className="my-3 dark:text-white">
+                      <i className="fa-regular fa-circle-check text-orange-600 mx-3 dark:text-white"></i>
                       Fireplace
                     </h2>
-                    <h2 className="my-3">
-                      <i className="fa-regular fa-circle-check text-orange-600 mx-3"></i>
+                    <h2 className="my-3 dark:text-white">
+                      <i className="fa-regular fa-circle-check text-orange-600 mx-3 dark:text-white"></i>
                       Furnished
                     </h2>
-                    <h2 className="my-3">
-                      <i className="fa-regular fa-circle-check text-orange-600 mx-3"></i>
+                    <h2 className="my-3 dark:text-white">
+                      <i className="fa-regular fa-circle-check text-orange-600 mx-3 dark:text-white"></i>
                       Horse
                     </h2>
-                    <h2 className="my-3">
-                      <i className="fa-regular fa-circle-check text-orange-600 mx-3"></i>
+                    <h2 className="my-3 dark:text-white">
+                      <i className="fa-regular fa-circle-check text-orange-600 mx-3 dark:text-white"></i>
                       No HOA Fees
                     </h2>
-                    <h2>
-                      <i className="fa-regular fa-circle-check text-orange-600 mx-3"></i>
+                    <h2 className="dark:text-white">
+                      <i className="fa-regular fa-circle-check text-orange-600 mx-3 dark:text-white"></i>
                       Views
                     </h2>
                   </div>
                   <div>
-                    <h2 className="my-3  ">
-                      <i className="fa-regular fa-circle-check text-orange-600 mx-3"></i>
+                    <h2 className="my-3  dark:text-white ">
+                      <i className="fa-regular fa-circle-check text-orange-600 mx-3 dark:text-white"></i>
                       Basement
                     </h2>
-                    <h2 className="my-3 ">
-                      <i className="fa-regular fa-circle-check text-orange-600 mx-3"></i>
+                    <h2 className="my-3 dark:text-white ">
+                      <i className="fa-regular fa-circle-check text-orange-600 mx-3 dark:text-white"></i>
                       Fixer Upper
                     </h2>
-                    <h2 className="my-3  ">
-                      <i className="fa-regular fa-circle-check text-orange-600 mx-3"></i>
+                    <h2 className="my-3  dark:text-white ">
+                      <i className="fa-regular fa-circle-check text-orange-600 mx-3 dark:text-white"></i>
                       Garage
                     </h2>
-                    <h2 className="my-3  ">
-                      <i className="fa-regular fa-circle-check text-orange-600 mx-3"></i>
+                    <h2 className="my-3   dark:text-white">
+                      <i className="fa-regular fa-circle-check text-orange-600 mx-3 dark:text-white"></i>
                       Lease To Own
                     </h2>
-                    <h2 className="my-3  ">
-                      <i className="fa-regular fa-circle-check text-orange-600 mx-3"></i>
+                    <h2 className="my-3   dark:text-white">
+                      <i className="fa-regular fa-circle-check text-orange-600 mx-3 dark:text-white"></i>
                       Pool
                     </h2>
                   </div>
                   <div>
-                    <h2 className="my-3">
-                      <i className="fa-regular fa-circle-check text-orange-600 mx-3"></i>
+                    <h2 className="my-3 dark:text-white">
+                      <i className="fa-regular fa-circle-check text-orange-600 mx-3 dark:text-white"></i>
                       Deck
                     </h2>
-                    <h2 className="my-3">
-                      <i className="fa-regular fa-circle-check text-orange-600 mx-3"></i>
+                    <h2 className="my-3 dark:text-white">
+                      <i className="fa-regular fa-circle-check text-orange-600 mx-3 dark:text-white"></i>
                       Foreclosure
                     </h2>
-                    <h2 className="my-3">
-                      <i className="fa-regular fa-circle-check text-orange-600 mx-3"></i>
+                    <h2 className="my-3 dark:text-white">
+                      <i className="fa-regular fa-circle-check text-orange-600 mx-3 dark:text-white"></i>
                       Golf
                     </h2>
-                    <h2 className="my-3">
-                      <i className="fa-regular fa-circle-check text-orange-600 mx-3"></i>
+                    <h2 className="my-3 dark:text-white">
+                      <i className="fa-regular fa-circle-check text-orange-600 mx-3 dark:text-white"></i>
                       New Construction
                     </h2>
-                    <h2 className="my-3">
-                      <i className="fa-regular fa-circle-check text-orange-600 mx-3"></i>
+                    <h2 className="my-3 dark:text-white">
+                      <i className="fa-regular fa-circle-check text-orange-600 mx-3 dark:text-white"></i>
                       Short Sale
                     </h2>
                   </div>
@@ -293,7 +299,9 @@ function ProptyPage() {
                   alt="img"
                   className="mx-auto rounded-full h-[100px] w-[100px]"
                 />
-                <h1 className="text-xl font-bold my-5">Simon Wood</h1>
+                <h1 className="text-xl font-bold my-5 dark:text-white">
+                  Simon Wood
+                </h1>
                 <h1 className="text-[1px] text-gray-500 text-semibold">
                   Chief Marketing Officer
                 </h1>
@@ -332,11 +340,14 @@ function ProptyPage() {
         </div>
       </div>
       {/* Stunning */}
-      <div className="bg-gray-100 mx-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 py-5 px-5 sm:px-12 gap-5">
-        <h1 className="font-bold text-5xl mt-10">
+      <div className="bg-gray-100 dark:bg-gulf-blue mx-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 py-5 px-5 sm:px-12 gap-5">
+        <h1 className="font-bold text-5xl mt-10 dark:text-white">
           "Stunning Three-Bedroom Home with
         </h1>
-        <h2 className="font-bold text-5xl"> Spacious Backyard</h2>
+        <h2 className="font-bold text-5xl dark:text-white">
+          {" "}
+          Spacious Backyard
+        </h2>
         <div className="flex justify-center items-center mt-5">
           <iframe
             className="embedly-embed"
@@ -356,10 +367,13 @@ function ProptyPage() {
       <div className="max-w-[1320px]   mx-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 py-5 px-5 sm:px-12 gap-5 my-10">
         <section className="section ">
           <div className="secondary-container middle-allign">
-            <h2 className="font-bold text-[40px] ">
+            <h2 className="font-bold text-[40px] dark:text-white">
               Property Location: Your Gateway to Desirable Living
             </h2>
-            <h2 className="font-bold text-[40px]"> Desirable Living</h2>
+            <h2 className="font-bold text-[40px] dark:text-white">
+              {" "}
+              Desirable Living
+            </h2>
             <div className="full-width-block">
               <div className="map w-embed w-iframe my-10">
                 <iframe

@@ -1,7 +1,7 @@
 import "./App.css";
 import Header from "./components/header";
 import Footer from "./components/footer";
-// import "animate.css";
+import { useEffect } from "react";
 
 // react router
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -22,8 +22,14 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
+  useEffect(() => {
+    let htmlClasses = document.querySelector("html").classList;
+    if (localStorage.theme === "dark") {
+      htmlClasses.add("dark");
+    }
+  }, []);
   return (
-    <div className="App">
+    <div className="App dark:bg-gulf-blue">
       <Header />
       <RouterProvider router={router} />
       <Footer />

@@ -4,10 +4,10 @@ function Card() {
   return (
     <div className=" my-20 mx-auto ">
       <div className="my-5">
-        <h1 className="md:text-[48px] text-[23px] text-center  font-bold ">
+        <h1 className="md:text-[48px] text-[23px] text-center  font-bold dark:text-white">
           Exclusive Properties and Prestigious
         </h1>
-        <h1 className="md:text-[48px] text-[23px] font-bold text-center  ">
+        <h1 className="md:text-[48px] text-[23px] font-bold text-center  dark:text-white">
           Estates Await
         </h1>
       </div>
@@ -27,7 +27,7 @@ function Card() {
               </div>
 
               <a href="#">
-                <h5 className="my-2 text-[18px] mx-4 tracking-tight text-gray-700 dark:text-white text-center">
+                <h5 className="my-2 text-[18px] mx-4 tracking-tight text-gray-700  text-center dark:text-black">
                   {card.type}
                 </h5>
               </a>
